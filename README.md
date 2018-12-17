@@ -27,27 +27,25 @@ Uma API que retorna uma lista de produtos.
 
 ### Informações fornecidas
 
-`
-method: 'GET',
-status: 200,
-products: [
-  {
-    _id: '5c171fb49f11ab3ae4b99d40',
-    item: 'Toalha One for All Fio Penteado',
-    productLine: 'One for All,
-    productImage: {
-      img0: 'uploads/1545019312775-toalha1.jpg',
-      img1: 'uploads/1545019312776-toalha2.jpg',
-      img2: 'uploads/1545019312776-toalha3.jpg', 
-      img3: 'uploads/1545019312777-toalha4.jpg'
-    }
-    originalPrice: 79.9,
-    newestPrice: 59.9,
-    category: 'banho',
-    keywords: 'toalha, banho, avulsa, 100% algodão, cinza, fio penteado, one for all'
-  }
-]
-`
+    method: 'GET',
+    status: 200,
+    products: [
+      {
+        _id: '5c171fb49f11ab3ae4b99d40',
+        item: 'Toalha One for All Fio Penteado',
+        productLine: 'One for All,
+        productImage: {
+          img0: 'uploads/1545019312775-toalha1.jpg',
+          img1: 'uploads/1545019312776-toalha2.jpg',
+          img2: 'uploads/1545019312776-toalha3.jpg', 
+          img3: 'uploads/1545019312777-toalha4.jpg'
+        }
+        originalPrice: 79.9,
+        newestPrice: 59.9,
+        category: 'banho',
+        keywords: 'toalha, banho, avulsa, 100% algodão, cinza, fio penteado, one for all'
+      }
+    ]
 
 ## Histórico
 
